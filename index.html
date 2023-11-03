@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Language Translator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .first {
+
+            height: 100vh;
+            width: 100vw;
+           background-image: url(pexels-cottonbro-studio-6321937.jpg);
+           background-size: cover;
+          
+
+        }
+
+
+        .second {
+            /* margin-top: 30px; */
+
+            height: 100vh;
+            width: 100vw;
+            background-color: rgb(65, 65, 81);
+        }
+
+        .sign {
+            height: 70px;
+            width: 100%;
+            background-color: black;
+            border-radius: 50px;
+            position: fixed;
+            margin-top: 10px;
+            display: inline;
+        }
+
+        .internal {
+
+            color: white;
+            margin-top: 20px;
+            margin-left: 40px;
+            cursor: pointer;
+            font-size: 20px;
+
+
+        }
+
+        .sign div {
+            float: left;
+        }
+
+
+
+
+
+        .home {
+            margin-left: 800px;
+            margin-right: 20px;
+        }
+
+        .container {
+            height: 400px;
+            width: 350px;
+            border: 1px solid black;
+            transform: translateX(100px);
+            transform: translateY(-200px);
+            box-shadow: 0px 0px 3px 1px black;
+
+        }
+
+
+
+        .newtext {
+            margin-left: 570px;
+            margin-top: 200px;
+            float: left;
+            color: rgb(252, 248, 248);
+            font-size: 40px;
+        }
+
+        .newtext:hover {
+            transform: scale(1.3);
+            transition: 2s;
+        }
+
+        .newtext div {
+            margin-top: 5px;
+        }
+
+        .box {
+            height: 20px;
+            width: 20px;
+            border: 1px solid black;
+            border-radius: 30px;
+        }
+
+        .box1 {
+            /* height: 30px;
+    width: 70px;
+    border: 1px solid black; */
+            transform: translateX(600px);
+            cursor: pointer;
+            color: white;
+        }
+    </style>
+
+
+</head>
+<body>
+
+     <div class="first">
+        <div class="sign">
+            <div class="internal">
+                <div class="text"> Sign Language Translator</div>
+                <div class="home">Home</div>
+                <div class="about">About</div>
+            </div>
+
+
+
+
+
+            <div class="newtext">
+
+
+                <div>
+                    <h4>Welcome to Sign Prediction App !</h4>
+                </div>
+                <div>Hi , Please insert your picture here </div>
+
+
+            </div>
+
+            <div class="box1"> <img src="icons8-upload-to-cloud-50.png" height="100px" width="100px" /></div>
+
+            <div class="container"><img src="signs.png" height="100%" width="100%" alt=""></div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+</body>
+</html>
